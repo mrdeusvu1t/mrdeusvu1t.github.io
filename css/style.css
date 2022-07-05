@@ -1,0 +1,132 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+
+.container{
+	width: 1440px;
+	height: 1700px;
+	margin: 0 auto;
+	background-color: #e8e8e8;
+}
+
+.ellipse{
+	position: absolute;
+	margin: 106px 108px 0 142px;
+	background: url(../img/Ellipse_1_copy.svg) 0 0/100% no-repeat;
+	width: 1190px;
+	height: 1064px;
+}
+
+h1{
+	padding-top: 160px;
+	padding-bottom: 25px;
+	opacity: 0.6;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+
+.title{
+	margin: 0 auto;
+	width: 740px;
+	height: 75px;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	text-align: center;
+}
+
+.image{
+	position: relative;
+	max-width: 841px;
+	max-height: 561px;
+	padding: 10px;
+	margin: 77px auto 0 auto;
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	background-color: white;
+}
+
+.disc{
+width: 736px;
+height: 257px;
+margin: 97px auto 0 auto;
+opacity: 0.8;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 24px;
+line-height: 40px;
+text-align: left;
+}
+
+.list{
+	margin-top: 64px;
+	margin-left: 337px;
+}
+
+li{
+	background: url(/img/check_icon.png) left no-repeat;
+	padding-left: 35px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	font-family: "Arial MT";
+	font-size: 20px;
+	line-height: 36px;
+	text-align: left;
+}
+
+.italic{
+	color: #80b7b3;
+	font-style: italic;
+}
+
+.bold{	
+	font-weight: bold;
+}
+
+.line{
+	opacity: 0.3;
+	text-decoration: line-through;
+}
+
+.btn{
+	width: 199px;
+	height: 44px;
+	border-radius: 30px;
+	background-color: #80b7b3;
+	text-align: center;
+	margin-left: 330px;
+	margin-top: 59px;
+	padding-left: 25px;
+	padding-top: 3px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	line-height: 40px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+
+.shape{
+	padding-left: 7px;
+	padding-top: 12px;
+}
